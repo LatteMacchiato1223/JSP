@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>LOGIN - 엄민서</title>
+	
+	<script type="text/javascript">
+		function fn_value() {
+			var fLogin = document.formLogin
+			var id = formLogin.user_id.value;
+			var pw = formLogin.user_pw.value;
+			
+			if ((id.length == 0 || id == "") || (pw.length == 0 || pw == "")) {
+				alert("Required ID and Password")
+			} else {
+				fLogin.method = "post";
+				fLogin.action = "login5";
+				fLogin.submit();
+			}
+		}
+	</script>
+	</head>
+	
+	<body>
+		<h1>Login Validation</h1>
+		
+		<form name="formLogin" method="get" action="login5" encType="UTF-8">
+			ID : <input type="text" name="user_id">
+			<br>
+			PW : <input type="password" name="user_pw">
+			<br><br>
+			<input type="hidden" name="user_addr1" value="Multiverse">
+			
+			<input type="button" onClick="fn_value()" value="login">
+			<input type="reset" value="re-enter">
+		</form>
+	</body>
+</html>
