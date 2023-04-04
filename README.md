@@ -10,4 +10,11 @@ Oracle XE 프로그램의 연동이 되지 않아 1시간 정도 곤란을 겪�
 tomcat xml 파일 수정 & smt를 psmt로 수정하여 불필요한 코드를 줄이는 작업을 수행 <br><br>
 3월 28일 Oracle 데이터베이스 연동 후 테이블의 내용을 로그인을 통해 추가 및 삭제하는 기능 추가<br><br>
 3월 30일 실습<br>refresh, redirect, location, dispatch를 이용한 fowarding<br>redirect을 이용한 서블릿 데이터 전송<br>dispatch를 사용한 binding foward
-<br> Chapter07의 클래스와 서블릿을 이용한 viewServlet 
+<br> Chapter07의 클래스와 서블릿을 이용한 viewServlet <br><br>
+4월 4일 실습<br>
+Servlet 바인딩 기능을 이용한 Servlet 생성 및 데이터 요청을 통한 회원정보 출력 <br>
+ServletContext 매개변수 설정 기능을 이용하면 xml파일을 사용하여 간편하게 데이터 수정이 가능<br>
+xml이 아닌 file을 생성하여 실행하는 방식도 존재(파일을 읽어내고, while문을 이용하여 구분자를 설정) <br> 
+ServletConfig 구현 , Servlet에서 사용할 설정 정보 초기화 기능 <br>
+@WebServlet 애너테이션을 이용한 버전 
+
