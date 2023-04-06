@@ -63,4 +63,10 @@
     <servlet-name>InitParamServlet</servlet-name>
     <servlet-class>sec04.ex01.InitParamServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description></description>
+    <display-name>loadConfig</display-name>
+    <servlet-name>loadConfig</servlet-name>
+    <servlet-class>sec04.ex02.LoadAppConfig</servlet-class>
+  </servlet>
 </web-app>
