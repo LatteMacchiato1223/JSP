@@ -29,4 +29,3 @@ web.xml이 아닌 ServletContext 객체에서 메뉴 항목을 가져온 후 출
 Url Rewriting을 이용한 세션 트래킹<br>
 GET 방식으로 한글을 전송하기 위하여 인코딩<br>
 <a> 태그를 이용해 링크 클릭 시 서블릿 /second로 다시 로그인 정보를 전송하도록 설정
-
