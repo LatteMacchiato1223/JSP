@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+		function setPopUpStart(obj) {
+			if (obj.checked == true) {
+				var expireDate = new Date();
+				
+				// 쿠키 유효시간을 1일로 지정
+				var days = 1;
+				expireDate.setDate(expireDate.getDate() + days);
+				
+				// 체크박스를 클릭 시 notShowPop을 true로 설정하여 재접속 시 팝업창 띄우지 않기
+				document.cookie = "notShowPop=" + "true" +
+				";path=/; expires=" + expireDate.toGMTString();
+				window.close();
+			}
+		}
+	</script>
+</head>
+<body>
+	Notification pop-up window
+	<br><br><br><br><br><br><br>
+	<form>
+		<input type=checkbox onclick="setPopUpStart(this)">
+		No more pop-up for today
+	</form>
+</body>
+</html>
