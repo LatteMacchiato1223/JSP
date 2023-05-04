@@ -52,6 +52,7 @@ invalidate() : 강제로 세션을 삭제하는 클래스 생성 <br>
 서블릿의 여러가지 URL 패턴 적용 실습<br><br>
 4월 20일 실습<br>
 HttpSessionBindingListener를 이용해 로그인 접속자 수 표시 <br><br>
+5월 4일 실습 <br>
 JSP 변환과정 실습<br>
 페이지 디렉티브 태그 사용<br>
 인클루드 디렉티브 태그 사용 - 이미지 삽입<br>
