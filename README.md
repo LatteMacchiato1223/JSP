@@ -97,4 +97,12 @@ JSP 예외 처리 실습<br>
 -13.3 useBean, setProperty, getProperty 액션 태그 사용 <br>
  자바 빈을 이용한 회원 정보 조회 실습 <br>
  유즈빈 액션 태그를 이용한 회원 정보 조회 실습 <br>
-setProperty/getProperty 액션 태그를 이용한 회원 정보 조회 실습 <br>
+setProperty/getProperty 액션 태그를 이용한 회원 정보 조회 실습 <br><br>
+
+5월 18일 실습<br>
+-14.1 표현 언어<br>
+JSP에서 표현 언어 사용 실습<br>
+표현 언어의 산술 연산자<br>
+표현 언어의 비교 연산자<br>
+표현 언어의 논리 연산자<br>
+표현 언어의 empty <br><br>
