@@ -106,3 +106,8 @@ JSP에서 표현 언어 사용 실습<br>
 표현 언어의 비교 연산자<br>
 표현 언어의 논리 연산자<br>
 표현 언어의 empty <br><br>
+-14.2 표현 언어 내장 객체(내장 변수)<br>
+param 내장 객체 사용 실습<br>
+requestScope 시용 실습<br>
+pageContext 객체 사용 실습<br>
+빈 사용 실습<br>
