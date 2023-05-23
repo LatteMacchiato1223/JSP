@@ -110,4 +110,16 @@ JSP에서 표현 언어 사용 실습<br>
 param 내장 객체 사용 실습<br>
 requestScope 시용 실습<br>
 pageContext 객체 사용 실습<br>
-빈 사용 실습<br>
+빈 사용 실습<br><br>
+
+5월 23일 실습<br>
+-14.2 표현 언어 내장 객체(내장 변수)<br>
+Collection 객체 사용 실습<br>
+HashMap 사용 실습<br>
+-14.3 표현 언어로 바인딩 속성 출력<br>
+내장 객체 속성 값 출력 실습<br>
+스코프 우선순위<br> 
+-14.5 JSP 표준 태그 라이브러리(JSTL)<br>
+ 14.6 Core 태그 라이브러리 사용
+ <c:set> 태그를 이용한 실습<br>
+ <c:remove> 태그를 이용한 실습<br><br>
